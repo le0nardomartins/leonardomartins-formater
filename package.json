@@ -24,6 +24,14 @@
   ],
   "author": "Leonardo Martins Cunha - le0nardomartins",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/le0nardomartins/leonardomartins-formater.git"
+  },
+  "homepage": "https://github.com/le0nardomartins/leonardomartins-formater#readme",
+  "bugs": {
+    "url": "https://github.com/le0nardomartins/leonardomartins-formater/issues"
+  },
   "devDependencies": {
     "typescript": "^5.3.3"
   },

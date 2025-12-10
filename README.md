@@ -2,8 +2,10 @@
 
 [![npm version](https://img.shields.io/npm/v/@leonardo-martins/formater.svg)](https://www.npmjs.com/package/@leonardo-martins/formater)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/stars/le0nardomartins/leonardomartins-formater?style=social)](https://github.com/le0nardomartins/leonardomartins-formater)
 
-**Author:** [Leonardo Martins](https://leonardomartins.dev)
+**Author:** [Leonardo Martins](https://leonardomartins.dev)  
+**Repository:** [GitHub](https://github.com/le0nardomartins/leonardomartins-formater)
 
 Automatic formatting library for input fields. Supports **76+ format types** including Brazilian, American, European, Latin American, and Asian documents, as well as dates, phone numbers, currency, time, and universal formats.
 
@@ -349,7 +351,8 @@ const formater = new Formater(options);
 ### Documentation Sources
 - **Full Documentation**: This README file contains complete documentation
 - **TypeScript Types**: All types are exported and available for autocomplete in IDEs
-- **Examples**: See the `example.html` file in the repository for working examples
+- **Examples**: See the `example.html` file in the [repository](https://github.com/le0nardomartins/leonardomartins-formater) for working examples
+- **Repository**: [GitHub](https://github.com/le0nardomartins/leonardomartins-formater) - View source code, report issues, or contribute
 - **NPM Package**: Visit the package page on npmjs.com for online documentation
 
 ### Common Issues
@@ -384,11 +387,17 @@ This library works in all modern browsers that support:
 - DOM APIs (querySelector, addEventListener)
 - TypeScript/ES6 modules (when using bundlers)
 
+## Support
+
+- **Repository**: [GitHub](https://github.com/le0nardomartins/leonardomartins-formater)
+- **Issues**: Report bugs or request features on [GitHub Issues](https://github.com/le0nardomartins/leonardomartins-formater/issues)
+- **Questions**: Check existing issues or create a new one
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the repository
+1. Fork the [repository](https://github.com/le0nardomartins/leonardomartins-formater)
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
