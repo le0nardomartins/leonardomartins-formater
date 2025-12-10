@@ -1,0 +1,35 @@
+{
+  "name": "@leonardo-martins/formater",
+  "version": "1.0.0",
+  "description": "Automatic formatting library for input fields - supports CPF, RG, dates, Brazilian, American and European documents",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "formatter",
+    "input",
+    "mask",
+    "cpf",
+    "rg",
+    "cnpj",
+    "date",
+    "brazil",
+    "usa",
+    "europe",
+    "document"
+  ],
+  "author": "Leonardo Martins Cunha - le0nardomartins",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
+

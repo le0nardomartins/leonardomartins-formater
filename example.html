@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formater - Usage Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formater - Usage Examples</h1>
+
+    <h2>Brazilian Documents</h2>
+    
+    <div class="form-group">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="000.000.000-00">
+    </div>
+
+    <div class="form-group">
+        <label for="rg">RG:</label>
+        <input type="text" id="rg" placeholder="00.000.000-0">
+    </div>
+
+    <div class="form-group">
+        <label for="cnpj">CNPJ:</label>
+        <input type="text" id="cnpj" placeholder="00.000.000/0000-00">
+    </div>
+
+    <div class="form-group">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" placeholder="00000-000">
+    </div>
+
+    <div class="form-group">
+        <label for="phone-br">Telefone (BR):</label>
+        <input type="text" id="phone-br" placeholder="(00) 00000-0000">
+    </div>
+
+    <div class="form-group">
+        <label for="date-br">Date (BR) - Short:</label>
+        <input type="text" id="date-br" placeholder="DD/MM/YYYY">
+    </div>
+
+    <div class="form-group">
+        <label for="date-br-full">Date (BR) - Full:</label>
+        <input type="text" id="date-br-full" placeholder="DD de Mês de YYYY">
+    </div>
+
+    <h2>American Documents</h2>
+
+    <div class="form-group">
+        <label for="ssn">SSN:</label>
+        <input type="text" id="ssn" placeholder="000-00-0000">
+    </div>
+
+    <div class="form-group">
+        <label for="phone-us">Telefone (US):</label>
+        <input type="text" id="phone-us" placeholder="(000) 000-0000">
+    </div>
+
+    <div class="form-group">
+        <label for="date-us">Date (US) - Short:</label>
+        <input type="text" id="date-us" placeholder="MM/DD/YYYY">
+    </div>
+
+    <div class="form-group">
+        <label for="date-us-full">Date (US) - Full:</label>
+        <input type="text" id="date-us-full" placeholder="Month DD, YYYY">
+    </div>
+
+    <div class="form-group">
+        <label for="drivers-license-us">Driver's License (US):</label>
+        <input type="text" id="drivers-license-us" placeholder="A000000000000">
+    </div>
+
+    <h2>European Documents</h2>
+
+    <div class="form-group">
+        <label for="nif-es">NIF (Espanha):</label>
+        <input type="text" id="nif-es" placeholder="00000000-A">
+    </div>
+
+    <div class="form-group">
+        <label for="nif-pt">NIF (Portugal):</label>
+        <input type="text" id="nif-pt" placeholder="000 000 000">
+    </div>
+
+    <div class="form-group">
+        <label for="nie-es">NIE (Espanha):</label>
+        <input type="text" id="nie-es" placeholder="A-0000000-A">
+    </div>
+
+    <div class="form-group">
+        <label for="passport-eu">Passaporte (EU):</label>
+        <input type="text" id="passport-eu" placeholder="ABC123456">
+    </div>
+
+    <div class="form-group">
+        <label for="date-eu">Date (EU) - Short:</label>
+        <input type="text" id="date-eu" placeholder="DD/MM/YYYY">
+    </div>
+
+    <div class="form-group">
+        <label for="date-eu-full">Date (EU) - Full:</label>
+        <input type="text" id="date-eu-full" placeholder="DD Month YYYY">
+    </div>
+
+    <div class="form-group">
+        <label for="phone-eu">Telefone (EU):</label>
+        <input type="text" id="phone-eu" placeholder="+XX (XX) XXXX-XXXX">
+    </div>
+
+    <script type="module">
+        // Import after build: import Formater from './dist/index.js';
+        // For this example, you would need to compile first with: npm run build
+        
+        // Usage example (uncomment after compiling):
+        /*
+        import Formater from './dist/index.js';
+
+        // Brazilian Documents
+        new Formater({ formatType: 'cpf', element: '#cpf' });
+        new Formater({ formatType: 'rg', element: '#rg' });
+        new Formater({ formatType: 'cnpj', element: '#cnpj' });
+        new Formater({ formatType: 'cep', element: '#cep' });
+        new Formater({ formatType: 'phone-br', element: '#phone-br' });
+        new Formater({ formatType: 'date-br', element: '#date-br' });
+        new Formater({ formatType: 'date-br-full', element: '#date-br-full' });
+
+        // American Documents
+        new Formater({ formatType: 'ssn', element: '#ssn' });
+        new Formater({ formatType: 'phone-us', element: '#phone-us' });
+        new Formater({ formatType: 'date-us', element: '#date-us' });
+        new Formater({ formatType: 'date-us-full', element: '#date-us-full' });
+        new Formater({ formatType: 'drivers-license-us', element: '#drivers-license-us' });
+
+        // European Documents
+        new Formater({ formatType: 'nif-es', element: '#nif-es' });
+        new Formater({ formatType: 'nif-pt', element: '#nif-pt' });
+        new Formater({ formatType: 'nie-es', element: '#nie-es' });
+        new Formater({ formatType: 'passport-eu', element: '#passport-eu' });
+        new Formater({ formatType: 'date-eu', element: '#date-eu' });
+        new Formater({ formatType: 'date-eu-full', element: '#date-eu-full' });
+        new Formater({ formatType: 'phone-eu', element: '#phone-eu' });
+        */
+    </script>
+</body>
+</html>
+
