@@ -1,6 +1,6 @@
 # Formater
 
-[![npm version](https://img.shields.io/npm/v/@leonardo-martins/formater.svg)](https://www.npmjs.com/package/@leonardo-martins/formater)
+[![npm version](https://img.shields.io/npm/v/@le0nardomartins/formater.svg)](https://www.npmjs.com/package/@le0nardomartins/formater)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub](https://img.shields.io/github/stars/le0nardomartins/leonardomartins-formater?style=social)](https://github.com/le0nardomartins/leonardomartins-formater)
 
@@ -21,7 +21,7 @@ Automatic formatting library for input fields. Supports **76+ format types** inc
 ## Installation
 
 ```bash
-npm install @leonardo-martins/formater
+npm install @le0nardomartins/formater
 ```
 
 ## Basic Usage
@@ -29,9 +29,9 @@ npm install @leonardo-martins/formater
 ### Import
 
 ```javascript
-import Formater from '@leonardo-martins/formater';
+import Formater from '@le0nardomartins/formater';
 // or
-const Formater = require('@leonardo-martins/formater');
+const Formater = require('@le0nardomartins/formater');
 ```
 
 ### Simple Example
@@ -44,7 +44,7 @@ const cpfFormater = new Formater({
 });
 
 // Or use the helper function
-import { createFormater } from '@leonardo-martins/formater';
+import { createFormater } from '@le0nardomartins/formater';
 
 const formater = createFormater({
   formatType: 'cpf',
@@ -331,7 +331,7 @@ fields.forEach(field => {
 The library includes TypeScript type definitions:
 
 ```typescript
-import Formater, { FormatType, FormaterOptions } from '@leonardo-martins/formater';
+import Formater, { FormatType, FormaterOptions } from '@le0nardomartins/formater';
 
 const formatType: FormatType = 'cpf';
 
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
 - Make sure you have TypeScript installed: `npm install -D typescript`
 - Import types explicitly if needed:
 ```typescript
-import Formater, { FormatType, FormaterOptions } from '@leonardo-martins/formater';
+import Formater, { FormatType, FormaterOptions } from '@le0nardomartins/formater';
 ```
 
 ## Browser Support

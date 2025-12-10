@@ -1,5 +1,5 @@
 {
-  "name": "@leonardo-martins/formater",
+  "name": "@le0nardomartins/formater",
   "version": "1.0.0",
   "description": "Automatic formatting library for input fields - supports CPF, RG, dates, Brazilian, American and European documents",
   "main": "dist/index.js",
