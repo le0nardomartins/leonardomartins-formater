@@ -348,13 +348,6 @@ const formater = new Formater(options);
 
 ### How to Get Help
 
-**Bibliotecas npm não têm um comando `--help` próprio.** O README é a documentação principal. Aqui estão as formas de obter ajuda:
-
-1. **README Completo**: Este arquivo contém toda a documentação
-2. **TypeScript Autocomplete**: Use o autocomplete do seu IDE para ver todos os tipos disponíveis
-3. **Exemplos**: Veja o arquivo `example.html` no repositório
-4. **NPM Package Page**: Visite a página do pacote no npm para ver a documentação
-
 ### Documentation Sources
 - **Full Documentation**: This README file contains complete documentation
 - **TypeScript Types**: All types are exported and available for autocomplete in IDEs
