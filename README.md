@@ -346,8 +346,6 @@ const formater = new Formater(options);
 
 ## Getting Help
 
-### How to Get Help
-
 ### Documentation Sources
 - **Full Documentation**: This README file contains complete documentation
 - **TypeScript Types**: All types are exported and available for autocomplete in IDEs
